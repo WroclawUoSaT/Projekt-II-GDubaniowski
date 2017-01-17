@@ -176,6 +176,11 @@ namespace WindowsFormsApplication13
 
         }
 
+        private void wykres_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }

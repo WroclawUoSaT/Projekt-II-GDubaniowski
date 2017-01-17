@@ -13,3 +13,11 @@ C:\Users\Grześ\documents\visual studio 2010\Projects\PA II\PA II\obj\x86\Debug\
 C:\Users\Grześ\documents\visual studio 2010\Projects\PA II\PA II\obj\x86\Debug\PA_II.Properties.Resources.resources
 C:\Users\Grześ\documents\visual studio 2010\Projects\PA II\PA II\obj\x86\Debug\PA II.csproj.GenerateResource.Cache
 C:\Users\Grześ\documents\visual studio 2010\Projects\PA II\PA II\obj\x86\Debug\PA II.csprojResolveAssemblyReference.cache
+C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\obj\x86\Debug\PA II.exe
+C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\obj\x86\Debug\PA II.pdb
+C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\bin\Debug\PA II.exe
+C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\bin\Debug\PA II.pdb
+C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\obj\x86\Debug\PA II.csprojResolveAssemblyReference.cache
+C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\obj\x86\Debug\WindowsFormsApplication13.Form1.resources
+C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\obj\x86\Debug\PA_II.Properties.Resources.resources
+C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\obj\x86\Debug\PA II.csproj.GenerateResource.Cache

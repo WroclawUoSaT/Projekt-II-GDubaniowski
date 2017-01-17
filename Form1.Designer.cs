@@ -55,6 +55,7 @@
             this.wykres.Size = new System.Drawing.Size(663, 413);
             this.wykres.TabIndex = 0;
             this.wykres.Text = "wykres";
+            this.wykres.Click += new System.EventHandler(this.wykres_Click);
             // 
             // button1
             // 
