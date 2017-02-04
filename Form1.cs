@@ -22,7 +22,7 @@ namespace WindowsFormsApplication13
         {
             InitializeComponent();
         }
-        bool seria = false;
+        bool seria ;
 
 
 
@@ -35,6 +35,9 @@ namespace WindowsFormsApplication13
 
         private void button1_Click(object sender, EventArgs e)
         {
+            wykres.Series.Clear();
+
+
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
 
             openFileDialog1.InitialDirectory = @"C:\temp";
@@ -89,22 +92,21 @@ namespace WindowsFormsApplication13
                 }
 
 
-
-
-
-
-                if (seria == false)
+                dataGridView1.DataSource = table;
+                foreach (DataGridViewColumn dcol in dataGridView1.Columns)
                 {
-
-                    dataGridView1.DataSource = table;
-                    foreach (DataGridViewColumn dcol in dataGridView1.Columns)
-                    {
-                        dcol.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-                    }
+                    dcol.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+                }
 
 
 
 
+
+
+
+
+
+              
 
 
 
@@ -131,14 +133,8 @@ namespace WindowsFormsApplication13
 
 
 
-                }
-                else
-                {
-
-                    wykres.Series["series"].YValueMembers = "Seria1 - Y";
-                    wykres.DataSource = table;
-                    wykres.DataBind();
-                }
+                
+               
 
             }
         }

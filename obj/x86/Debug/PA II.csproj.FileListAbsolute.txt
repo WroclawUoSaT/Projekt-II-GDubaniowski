@@ -21,3 +21,11 @@ C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\obj\x86\Debu
 C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\obj\x86\Debug\WindowsFormsApplication13.Form1.resources
 C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\obj\x86\Debug\PA_II.Properties.Resources.resources
 C:\Users\Grześ\Documents\Visual Studio 2010\projekt-1-GDubaniowski\obj\x86\Debug\PA II.csproj.GenerateResource.Cache
+C:\Users\Padre\Desktop\Projekt-II-GDubaniowski\obj\x86\Debug\PA II.exe
+C:\Users\Padre\Desktop\Projekt-II-GDubaniowski\obj\x86\Debug\PA II.pdb
+C:\Users\Padre\Desktop\Projekt-II-GDubaniowski\bin\Debug\PA II.exe
+C:\Users\Padre\Desktop\Projekt-II-GDubaniowski\bin\Debug\PA II.pdb
+C:\Users\Padre\Desktop\Projekt-II-GDubaniowski\obj\x86\Debug\PA II.csprojResolveAssemblyReference.cache
+C:\Users\Padre\Desktop\Projekt-II-GDubaniowski\obj\x86\Debug\WindowsFormsApplication13.Form1.resources
+C:\Users\Padre\Desktop\Projekt-II-GDubaniowski\obj\x86\Debug\PA_II.Properties.Resources.resources
+C:\Users\Padre\Desktop\Projekt-II-GDubaniowski\obj\x86\Debug\PA II.csproj.GenerateResource.Cache
