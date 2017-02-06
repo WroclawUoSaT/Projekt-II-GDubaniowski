@@ -22,7 +22,7 @@ namespace WindowsFormsApplication13
         {
             InitializeComponent();
         }
-        bool seria ;
+        
 
 
 
@@ -98,10 +98,10 @@ namespace WindowsFormsApplication13
                     dcol.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
                 }
 
-
-
-
-
+                dataGridView1.Columns["Column1"].Visible = false;
+                dataGridView1.Columns[0].HeaderText = "Wartości  X";
+                dataGridView1.Columns[1].HeaderText = "Wartości  Y";
+                                                              
 
 
 
@@ -120,18 +120,20 @@ namespace WindowsFormsApplication13
 
                     DataPoint min = wykres.Series["series"].Points.FindMinByValue("Y");
                     DataPoint max = wykres.Series["series"].Points.FindMaxByValue("Y");
-                    double x1 = min.XValue;
+                    
                     double[] y1 = min.YValues;
-                    double x = max.XValue;
                     double[] y = max.YValues;
-                    string s = "(" + x.ToString() + " , " + y[0].ToString() + ")";
-                    string t = "(" + x1.ToString() + " , " + y1[0].ToString() + ")";
+
+                    string s = "(" + y[0].ToString()  + ")";
+                    string t = "(" + y1[0].ToString() + ")";
+
                     wykres.Series["series"].Points.FindMaxByValue("Y").Label = s;
                     wykres.Series["series"].Points.FindMinByValue("Y").Label = t;
 
-                    seria = true;
+                    
 
-
+                    wartosc_min.Text = t;
+                    wartosc_max.Text = s;
 
                 
                
@@ -173,6 +175,20 @@ namespace WindowsFormsApplication13
         }
 
         private void wykres_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+
+            
+
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
